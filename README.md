@@ -11,6 +11,6 @@ address hr &lt; &gt; &copy; &amp;
 # 23/06/21~23/06/22 Layout Tag
 ```
 div,span
-header,nav,footer,main,section,artcle,aside,
-ul,ol,li,dl,dt,dd
+header, nav, footer, main, section, artcle, aside,
+ul ,ol, li, dl, dt, dd
 ```
