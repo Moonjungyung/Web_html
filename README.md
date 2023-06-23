@@ -14,4 +14,5 @@ address hr &lt; &gt; &copy; &amp;
 div,span
 header, nav, footer, main, section, artcle, aside,
 ul ,ol, li, dl, dt, dd
+meta:, Viewport, a, a href, target, _blank, #
 ```
