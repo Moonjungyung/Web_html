@@ -16,3 +16,18 @@ header, nav, footer, main, section, artcle, aside,
 ul ,ol, li, dl, dt, dd
 meta:, Viewport, a, a href, target, _blank, #
 ```
+
+# 23/06/23~27
+```
+img, figure, figcaption, video, autoplay muted controls loop
+table, tr, th, td, colspan, rowspan, scope
+form, fieldset, legend, input, label, button, reset submit button, select, option, optgroup
+```
+
+# 23/06/28~ CSS tag
+```
+style, link
+
+
+```
+
