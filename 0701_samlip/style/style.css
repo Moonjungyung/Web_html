@@ -1,0 +1,51 @@
+/* header */
+header {background-color: aquamarine;}
+header h1 {}
+header h1 a {}
+header h1 a img {}
+/* header-nav */
+header nav {background-color: cadetblue;}
+header nav ul {}
+header nav ul li {}
+header nav ul li a {}
+header .lnb {background-color: orange;}
+header .lnb li {}
+header .lnb li a {}
+/* main */
+main {background-color: mediumorchid;}
+main .bread_crumb_bg {background-color: #f1f1f1;}
+main .bread_crumb_bg .bread_crumb {background-color: blanchedalmond;}
+main .bread_crumb_bg .bread_crumb a {}
+main .bread_crumb_bg .bread_crumb em {}
+/* main content_1 경영이념 */
+main #content_1 {background-color: darkseagreen;}
+main #content_1 h1 {}
+main #content_1 p {}
+/* main content_2 글자 */
+main .c2_bg {background-color: #f1f1f1;}
+main .c2_bg #content_2 {background-color: mediumaquamarine;}
+main .c2_bg #content_2 p {}
+/* main content_3 VISION */
+main #content_3 {background-color: darkkhaki;}
+main #content_3 h2 {}
+main #content_3 p {}
+/* main content_4 GOAL */
+main .content_4_bg {background-color: #f1f1f1;}
+main .content_4_bg #content_4 {background-color: navajowhite;}
+main .content_4_bg #content_4 h2 {}
+main .content_4_bg #content_4 ul {}
+main .content_4_bg #content_4 ul li {}
+main .content_4_bg #content_4 ul li h3 {}
+main .content_4_bg #content_4 ul li p {}
+/* footer */
+main footer {background-color: lightcoral;}
+main footer .footer_top {background-color: peru;}
+main footer .footer_top .fnb {background-color: mistyrose;}
+main footer .footer_top .fnb li {}
+main footer .footer_top .fnb li a {}
+main footer .footer_top .site {background-color: pink;}
+main footer .footer_top .site li {}
+main footer .footer_top .site li a {}
+main footer .footer_btm {background-color: turquoise;}
+main footer .footer_btm address {}
+main footer .footer_btm p {}
