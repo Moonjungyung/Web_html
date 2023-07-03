@@ -1,0 +1,131 @@
+main {background-color: mediumorchid;}
+main .bread_crumb_bg {
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #aaa;
+    border-top: 1px solid #aaa;
+}
+main .bread_crumb_bg .bread_crumb {
+    background-color: blanchedalmond;
+    width: 1200px;
+    margin: 0 auto;
+}
+main .bread_crumb_bg .bread_crumb a {
+}
+main .bread_crumb_bg .bread_crumb em {
+    font-weight: 500;
+}
+/* main content_1 경영이념 */
+main #content_1 {
+    background-color: darkseagreen;
+    width: 1200px;
+    margin: 0 auto;
+}
+main #content_1 h1 {
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+main #content_1 p {
+    font-size: 1.2rem;
+    text-align: center;
+    letter-spacing: -0.2%;
+
+}
+/* main content_2 글자 */
+main .c2_bg {background-color: #f1f1f1;}
+main .c2_bg #content_2 {
+    background-color: mediumaquamarine;
+    width: 1200px;
+    margin: 0 auto;
+}
+main .c2_bg #content_2 p {
+    text-align: center;
+    letter-spacing: -2%;
+    line-height: 35px;
+}
+/* main content_3 VISION */
+main #content_3 {
+    background-color: darkkhaki;
+    width: 1200px;
+    margin: 0 auto;
+}
+main #content_3 h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+main #content_3 p {
+    font-size: 1.7rem;
+    text-align: center;
+    line-height: 45px;
+
+}
+/* main content_4 GOAL */
+main .content_4_bg {background-color: #f1f1f1;}
+main .content_4_bg #content_4 {
+    background-color: navajowhite;
+    width: 1200px;
+    margin: 0 auto;
+}
+main .content_4_bg #content_4 h2 {}
+main .content_4_bg #content_4 ul {}
+main .content_4_bg #content_4 ul li {}
+main .content_4_bg #content_4 ul li h3 {}
+main .content_4_bg #content_4 ul li p {}
+/* footer */
+main footer {
+    background-color: lightcoral;
+    width: 1200px;
+    margin: 0 auto;
+}
+main footer .footer_top {
+    background-color: peru;
+    height: 60px;
+}
+main footer .footer_top .fnb {
+    background-color: mistyrose;
+    float: left;
+    margin: 23px 0 0 20px;
+}
+main footer .footer_top .fnb li {
+    float: left;
+}
+main footer .footer_top .fnb li a {
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: -0.2%;
+    margin-right: 30px;
+}
+main footer .footer_top .site {
+    background-color: pink;
+    float: right;
+    margin: 10px 20px 10px 0;
+}
+main footer .footer_top .site li {
+    float: left;
+    padding: 10px 20px 10px 20px;
+    margin-right: 10px;
+    border: 1px solid #aaa;
+}
+main footer .footer_top .site li:last-child {
+    margin-right: 0px;
+}
+main footer .footer_top .site li a {
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: -0.2%;
+}
+main footer .footer_btm {background-color: turquoise;}
+main footer .footer_btm address {
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: -0.2%;
+    line-height: 40px;
+    clear: both;
+}
+main footer .footer_btm p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: -0.2%;
+}
