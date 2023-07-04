@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+header {
+    background-color: aquamarine;
+    width: 1200px;
+    height: 92px;
+    margin: 0 auto;
+}
+header h1 {
+    background-color: coral;
+    width: 60px;
+    height: 70px;
+    float: left;
+    margin: 11px 0 0 20px; 
+}
+header h1 a {}
+header h1 a img {
+    width: 100%;
+}
+header nav {
+    background-color: bisque;
+    margin: 39px 0 0 234px;
+    float: left;
+}
+header nav ul {
+    background-color: cadetblue;
+}
+header nav ul .active {}
+header nav ul .active a {
+    color: #36B4E5;
+}
+header nav ul li {
+    float: left;
+}
+header nav ul li a {
+    margin-right: 40px;
+    font-size: 1.2rem;
+}
+header nav ul li:last-child a {
+    margin-right: 0px;
+}
+header .lnb {
+    float: right;
+    margin: 39px 20px 0 0;
+}
+header .lnb li {
+    float: left;
+    margin-right: 20px;
+}
+header .lnb li:last-child {
+    margin-right: 0px;
+}
+header .lnb li a {
+    font-size: 1.2rem;
+}
+header .lnb li span {
+    width: 1px;
+    height: 13px;
+    background-color: #aaa;
+    display: block;
+    margin-top: 3px;
+}
+main {background-color: chocolate;}
+main .bread_crumb_bg {
+    background-color: #f1f1f1;
+    border: 1px solid #aaa;
+    border-left: 0;
+    border-right: 0;
+}
+main .bread_crumb_bg .bread_crumb {
+    background-color: salmon;
+    width: 1200px;
+    height: 58px;
+    margin: 0 auto;
+    text-align: right;
+    padding: 23px 20px 0 0;
+}
+main .bread_crumb_bg .bread_crumb a {}
+main .bread_crumb_bg .bread_crumb em {
+    font-weight: 700;
+}
+main #content_1 {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: darkturquoise;
+    padding: 70px 0;
+}
+main #content_1 h1 {
+    font-size: 2.074rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 40px;
+}
+main #content_1 p {
+    font-size: 1.2rem;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+main .c2_bg {background-color: #f1f1f1}
+main .c2_bg #content_2 {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+main .c2_bg #content_2 p {
+    font-size: 1.2rem;
+    line-height: 35px;
+    text-align: center;
+}
+main #content_3 {
+    background-color: burlywood;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0;
+    text-align: center;
+}
+main #content_3 h2 {
+    font-size: 2.074rem;
+    font-weight: 500;
+    color: #36B4E5;
+    margin-bottom: 50px;
+}
+main #content_3 h2+p {
+    font-size: 1.728rem;
+    line-height: 45px;
+}
+main #content_3 p:nth-child(2) {
+    margin-bottom: 50px;
+}
+main .content_4_bg {background-color: #f1f1f1}
+main .content_4_bg #content_4 {
+    background-color: firebrick;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+main .content_4_bg #content_4 h2 {
+    font-weight: 500;
+    font-size: 2.074rem;
+}
+main .content_4_bg #content_4 ul {}
+main .content_4_bg #content_4 ul li {
+    line-height: 22px;
+    letter-spacing: -0.02em;
+}
+main .content_4_bg #content_4 ul li h3 {
+    font-weight: 500;
+
+}
+main .content_4_bg #content_4 ul li p {}
+main footer {
+    width: 1200px;
+    margin: 0 auto;
+}
+main footer .footer_top {
+    background-color: darkorange;
+    height: 60px;
+}
+main footer .footer_top .fnb {
+    float: left;
+    padding: 23px 0 0 20px;
+}
+main footer .footer_top .fnb li {
+    float: left;
+}
+main footer .footer_top .fnb li a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-right: 30px;
+}
+main footer .footer_top .fnb li:last-child a {
+    margin-right: 0px;
+}
+main footer .footer_top .site {
+    float: right;
+    background-color: darkviolet;
+    margin: 9px 20px 0 0;
+}
+main footer .footer_top .site li {
+    background-color: antiquewhite;
+    float: left;
+    padding: 10px 20px 10px 20px;
+    margin-left: 10px;
+    border: 1px solid #aaa;
+}
+main footer .footer_top .site li a {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+main footer .footer_top .site li:first-child {
+    margin-left: 0px;
+}
+main footer .footer_btm {
+    background-color: forestgreen;
+    padding: 70px 0;
+}
+main footer .footer_btm address {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 40px;
+    padding-left: 20px;
+}
+main footer .footer_btm p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 50px;
+    padding-left: 20px;
+}
