@@ -1,0 +1,108 @@
+/* rgb(95 3 128) */
+/* all layout */
+/* header-sprite 공통그룹선택자 */
+header .middle .logo h1,
+header #searchFrm fieldset #search_btn,
+header .lnb .map,
+header .lnb .like,
+header .lnb .cart,
+header .h_btm .all_nav .menu {
+    background: url(../img/kurly_img/icon_set.png) no-repeat;
+    width: 36px; height: 36px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+/* header */
+.ad_bg .ad,
+header {
+    background: lightsalmon;
+    width: 1050px;
+    margin: 0 auto;
+}
+/*  */
+.ad_bg {background-color: rgb(95 3 128);}
+.ad_bg .ad {
+    height: 42px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.ad_bg .ad a {
+    color:#fff;
+}
+.ad_bg .ad .adver {}
+.ad_bg .ad .close {
+    position: absolute;
+    right: 0;
+}
+.ad_bg .ad a em {}
+.ad_bg .ad a .fa-xmark {}
+header {}
+header .user_lnb {
+    height: 35px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+header .user_lnb ul .join {}
+header .user_lnb ul .login {}
+header .user_lnb ul .customer_service {}
+header .middle {
+    height: 63px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header .middle .logo {
+    display: flex;
+    flex-flow: row nowrap;
+}
+header .middle .logo h1 {
+    width: 82px; height: 42px;
+    background-position: -0 -158px;
+}
+header .middle .logo .market {}
+header .middle .logo .beauty {}
+header #searchFrm {
+    width: 350px; height: 45px;
+    border: 1px solid rgb(95 3 128);
+    border-radius: 5px;
+}
+header #searchFrm fieldset {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+}
+header #searchFrm fieldset #search_text {}
+header #searchFrm fieldset #search_btn {background-position: -0 -122px;}
+header .lnb {}
+header .lnb .map {background-position: -0 -86px;}
+header .lnb .like {background-position: -0 -50px;}
+header .lnb .cart {background-position: -0 -14px;}
+header .h_btm {
+    height: 56px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header .h_btm .all_nav {}
+header .h_btm .all_nav span {}
+header .h_btm .all_nav .menu {
+    width: 16px; height: 14px;
+    background-position: -0 -0;
+}
+header .h_btm nav {}
+header .h_btm nav a {}
+header .h_btm .delivery_info {
+    border: 1px solid rgb(95 3 128);
+    border-radius: 20px;
+}
+header .h_btm .delivery_info span {}
+header .h_btm .delivery_info span .fa-circle {font-size: 1px;}
