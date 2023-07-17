@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>respon_5</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <style>
+        header, main, footer {
+            text-align: center;
+            padding: 20px;
+            max-width: 1200px;
+            min-width: 320px;
+            margin: 0 auto;
+        }
+        header {
+            background: coral;
+            height: 10vh;
+        }
+        main {
+            border: 5px solid #000;
+            height: 80vh;
+        }
+        main h1 {font-size: 3rem;}
+        main p {}
+        footer {
+            background-color: lightcyan;
+            height: 10vh;
+        }
+        /* 모바일 스타일 설정 종료 */
+        /* media */
+        @media (min-width:481px) {
+            header {background: blue;}
+            main {background: pink;
+                border: none;}
+            main h1 {font-size: 1rem;}
+            footer {background: lightseagreen;}
+        } /* 481부터 적용되는 속성 */
+        @media (min-width:769px) {
+            header {background-color: lightblue;}
+            main {background-color: lightgreen;
+                border: none;}
+            main h1 {font-size: 1rem;}
+            footer {background-color: lightcoral;}
+        }/* 769부터 적용되는 속성 */
+    </style>
+</head>
+<body>
+    <header>header</header>
+    <main>
+        <h1>제목</h1>
+        <p>내용</p>
+    </main>
+    <footer>footer</footer>
+</body>
+</html>
