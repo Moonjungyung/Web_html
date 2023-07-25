@@ -1,0 +1,382 @@
+/* 단체선택자 */
+main .title_bg .title,
+main .video,
+main .memory,
+main .trip,
+main .local,
+main .hotel,
+main .event,
+main .attraction,
+main .precautions {
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: lightgreen; */
+}
+h2 *,
+h2 {font-family: 'HS 새마을체'; font-size: 5rem; font-size: 3.5rem;}
+/* position fixed */
+#asking {
+    position: fixed; bottom: 60px; right: 0;
+    background-color: #fff;
+    width: 269px; height: 77px;
+    border-radius: 30px 0 0 30px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.50);
+    display: flex; flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 24px;
+    z-index: 10;
+}
+#asking .top {display: flex; flex-flow: row nowrap;}
+#asking .top li img {
+    margin-right: 8px;
+}
+#asking .top li {font-weight: 700; margin-bottom: 4px;}
+#asking .btm {
+    display: flex; flex-flow: row nowrap;}
+#asking .btm li {font-size: 0.75rem;}
+#asking .btm li img {}
+/* main */
+main {}
+/* 1. title */
+main .title_bg {
+    background: url(../img/main_bg.jpg) no-repeat fixed center;
+    background-size: cover;
+    height: 800px;
+    border-radius: 0 0 0 400px;
+}
+main .title_bg .title {
+    padding-top: 50px;
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+}
+main .title_bg .title a {
+    align-self: flex-end;
+    padding: 8px 10px;
+    background-color: #FFF;
+    border-radius: 20px;
+    transition: box-shadow 0.5s;
+    box-shadow: 0;
+}
+main .title_bg .title a:hover {
+    box-shadow: 0 0 5px #fff;
+}
+main .title_bg .title p {
+    color: #FFF; font-size: 1.3rem;
+    padding: 13px 40px;
+    background-color: rgba(29, 221, 209, 0.8);
+    border-radius: 50px;
+}
+main .title_bg .title h1 {
+    font-family: 'HS 새마을체'; font-size: 5rem; color: #FFF;
+    line-height: 110px; text-align: center;
+    margin: 167px 0 57px 0;
+    text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.25);
+}
+/* 2. memory */
+main .memory {
+    padding: 100px 0;
+    display: flex; flex-flow: row nowrap;
+}
+main .memory .left+.right {
+    width: calc(50% - 20px / 2);
+}
+
+main .memory .left {
+    display: flex; flex-flow: column nowrap;
+    margin-right: 64px;
+}
+main .memory .left h2 {line-height: 80px; margin-bottom: 45px;}
+main .memory .left h2 em {color: #1DDDD1;}
+main .memory .left p {letter-spacing: -0.02rem; line-height: 30px;}
+main .memory .right {display: flex; flex-flow: column nowrap;}
+main .memory .right .contents_image {width: 610px; height: 333px;}
+main .memory .right .contents_image img {
+    border-radius: 30px 30px 0 0;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+main .memory .right .contents {
+    width: 610px;
+    background-color: #fff;
+    border-radius: 0 0 30px 30px; box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex; flex-flow: column nowrap;
+    line-height: 30px; letter-spacing: -0.02rem;
+    padding: 20px 30px;
+}
+/* 3. video */
+main .video_bg {
+    background: url(../img/video_bg.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+main .video_bg .video {
+    padding: 100px 0;
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+}
+main .video_bg .video h2 {color: #FFF;}
+main .video_bg .video iframe {
+    width: 800px; height: 450px;
+    margin: 60px 0 40px 0;
+}
+main .video_bg .video a {
+    padding: 14px 40px; margin-right: 10px;
+    background-color: #1DDDD1;
+    display: flex; flex-flow: row nowrap;
+    align-items: center;
+    border-radius: 30px;
+}
+main .video_bg .video a span {font-weight: 700; color: #FFF; margin-right: 10px;}
+main .video_bg .video a img {}
+/* 4. trip type */
+main .trip_bg {}
+main .trip_bg .trip {
+    padding: 100px 0;
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+}
+main .trip_bg .trip .top {
+    display: flex; flex-flow: column nowrap;
+    align-items: center;}
+main .trip_bg .trip .top p:first-child {font-size: 1.75rem; font-family: 'HS 새마을체';}
+main .trip_bg .trip .top h2 {margin: 35px 0;}
+main .trip_bg .trip .top h2 em {color: #1DDDD1;}
+main .trip_bg .trip .top p {
+    letter-spacing: -0.02rem; line-height: 30px;
+    margin-bottom: 60px; text-align: center;
+}
+main .trip_bg .trip .btm {}
+main .trip_bg .trip .btm #trip_frm {}
+main .trip_bg .trip .btm #trip_frm fieldset {}
+main .trip_bg .trip .btm #trip_frm fieldset ul {
+    display: flex; flex-flow: row nowrap;}
+main .trip_bg .trip .btm #trip_frm fieldset li {
+    width: calc(50% - 20px / 2);
+    margin-right: 20px;
+}
+main .trip_bg .trip .btm #trip_frm fieldset li:last-child {
+    margin-right: 0;
+}
+main .trip_bg .trip .btm #trip_frm fieldset li label {
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+}
+main .trip_bg .trip .btm #trip_frm fieldset li label span {
+    width: 590px; height: 59px; 
+    background: #BBBBBB; text-align: center; line-height: 59px;
+    border-radius: 40px 40px 0 0;
+    font-family: 'HS 새마을체'; color: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+main .trip_bg .trip .btm #trip_frm fieldset li input {
+    appearance: none;
+    height: 21px; width: 21px;
+}
+main .trip_bg .trip .btm #trip_frm fieldset li input:checked+label span {
+    background-color: #1DDDD1;
+    font-size: 1.333rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+main .trip_bg .trip .btm #trip_frm fieldset li label #free_trip {}
+main .trip_bg .trip .btm #trip_frm fieldset li label #group_trip {}
+main .trip_bg .trip .btm #trip_frm fieldset li label>img {
+    border-radius: 0 0 40px 40px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);}
+/* 5. local uisine */
+main .local_bg {background: #F6F6F6; border-radius: 0 400px 0 0;}
+main .local_bg .local {
+    padding: 100px 0;
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+}
+main .local_bg .local h2 {text-align: center; margin-bottom: 60px;}
+main .local_bg .local h2 em {color: #1DDDD1;}
+main .local_bg .local .contents {
+    width: 792px;
+    display: flex; flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+main .local_bg .local .contents li {
+    display: flex; flex-flow: column nowrap;
+    align-items: center; text-align: center;
+    width: calc(50% - 20px /2);
+    margin-right: 20px;
+    line-height: 30px; letter-spacing: -0.02rem;
+
+}
+main .local_bg .local .contents li:nth-child(1),
+main .local_bg .local .contents li:nth-child(2) {
+    margin-bottom: 40px;
+}
+main .local_bg .local .contents li:nth-child(2n) {
+    margin-right: 0;
+}
+main .local_bg .local .contents li img {
+    width: 386px; height: 294px;
+    border-radius: 30px;
+}
+main .local_bg .local .contents li span {
+    font-size: 1.3rem; line-height: 30px; letter-spacing: -0.04em;
+    margin: 20px 0 10px 0;
+}
+/* 6. hotel */
+main .hotel_bg {background: #F6F6F6;}
+main .hotel_bg .hotel {
+    padding: 100px 0;
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+}
+main .hotel_bg .hotel h2 {text-align: center; margin-bottom: 60px;}
+main .hotel_bg .hotel h2 em {color: #1DDDD1;}
+main .hotel_bg .hotel .resort {
+    width: 1200px;
+    display: flex; flex-flow: row nowrap;
+    margin-bottom: 60px;
+}
+main .hotel_bg .hotel .resort >* {
+    width: calc(50% - 20px / 2);
+    margin-right: 20px;
+}
+main .hotel_bg .hotel .resort .hotel_contents {
+    width: 488px; height: 318px;
+}
+main .hotel_bg .hotel .resort .hotel_contents li {
+    display: flex; flex-flow: column nowrap;
+}
+main .hotel_bg .hotel .resort .hotel_contents li:first-child {
+    line-height: 40px; font-weight: 700; font-size: 1.75rem;
+    margin-bottom: 10px;
+}
+main .hotel_bg .hotel .resort .hotel_contents li:nth-child(2) {
+    font-weight: 300; font-size: 0.75rem;
+}
+main .hotel_bg .hotel .resort .hotel_contents li:nth-child(4) {
+    width: 488px; height: 166px;
+    line-height: 34px; letter-spacing: -0.02rem;
+}
+main .hotel_bg .hotel .resort .hotel_contents .info {
+    display: flex; flex-flow: row nowrap;
+    align-items: center;
+}
+main .hotel_bg .hotel .resort .hotel_contents .info .point {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px 6px;
+    margin: 10px 14px 10px 0;
+    font-size: 0.75rem;
+}
+main .hotel_bg .hotel .resort .hotel_contents .info .star {
+    font-weight: 300; font-size: 16px;
+}
+main .hotel_bg .hotel .hotel_img {
+    position: relative;
+    margin-right: 0;
+}
+main .hotel_bg .hotel .hotel_img img {
+    border-radius: 0 50px 50px 0
+}
+main .hotel_bg .hotel .hotel_img a {
+    position: absolute; left: 0; bottom: 0;
+    background-color: #fff;
+    padding: 10px 30px;
+    border-radius: 0 30px 0 0;
+    display: flex; flex-flow: row nowrap;
+    align-items: center;
+}
+main .hotel_bg .hotel .hotel_img a span {margin-right: 14px;}
+main .hotel_bg .hotel .hotel_img a span img {}
+/* 7. attraction */
+main .attraction {
+    padding: 100px 0;
+    display: flex; flex-flow: column nowrap;}
+main .attraction h2 {text-align: center; margin-bottom: 60px;}
+main .attraction h2 em {color: #1DDDD1;}
+main .attraction .attraction_frm {
+    display: flex; flex-flow: column nowrap;}
+main .attraction .attraction_frm .top {
+    display: flex; flex-flow: row nowrap;
+}
+main .attraction .attraction_frm .top .top_content {
+    display: flex; flex-flow: column nowrap;
+    width: calc(33.33% - 20px /3);
+    align-items: center;
+    margin: 0 20px 60px 0;
+}
+main .attraction .attraction_frm .top .top_content:last-child {margin-right: 0px;}
+main .attraction .attraction_frm .top .top_content li:first-child {
+    font-size: 1.3rem; font-weight: 700;
+}
+main .attraction .attraction_frm .top .top_content li:last-child {
+    width: 387px;
+    letter-spacing: -0.02rem; line-height: 30px;
+}
+main .attraction .attraction_frm .top .top_content li {
+}
+main .attraction .attraction_frm .top .top_content li img {
+    border-radius: 20px; margin: 23px 0;
+}
+main .attraction .attraction_frm .btm {
+    display: flex; flex-flow: row nowrap;
+}
+main .attraction .attraction_frm .btm .btm_content {
+    width: calc(50% - 20px /2); margin-right: 20px;
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+}
+main .attraction .attraction_frm .btm .btm_content:last-child {
+    margin-right: 0px;
+}
+main .attraction .attraction_frm .btm .btm_content li:first-child {
+    font-size: 1.3rem; font-weight: 700;
+}
+main .attraction .attraction_frm .btm .btm_content li:last-child {
+    width: 590px;
+    letter-spacing: -0.02rem; line-height: 30px;
+}
+main .attraction .attraction_frm .btm .btm_content li img {
+    border-radius: 20px; margin: 23px 0;
+}
+/* 8. event */
+main .event_bg {
+    background: url(../img/event.bg.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+main .event_bg .event {
+    padding: 100px 0;
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+}
+main .event_bg .event h2 {
+    color: #fff; text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+main .event_bg .event p {
+    margin: 60px 0;
+    line-height: 60px; font-size: 3.15rem; color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+main .event_bg .event p em {color: #fff; font-size: 3.15rem; font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+main .event_bg .event a {
+    padding: 14px 40px; border-radius: 30px;
+    background-color: #1DDDD1;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+main .event_bg .event a span {
+    color: #fff; font-weight: 700; font-size: 1.3rem;
+    margin-right: 10px;
+}
+main .event_bg .event a img {}
+/* 9. Precautions */
+main .precautions_bg {background: #F6F6F6;}
+main .precautions_bg .precautions {
+    padding: 100px 0;
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+}
+main .precautions_bg .precautions h3 {font-weight: 700;}
+main .precautions_bg .precautions ol {
+    margin: 60px 0;}
+main .precautions_bg .precautions ol li {
+    line-height: 24px; font-size: 0.75rem;}
+main .precautions_bg .precautions p {font-size: 0.75rem; color: #949494;}
